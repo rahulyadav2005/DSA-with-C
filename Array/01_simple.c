@@ -22,7 +22,13 @@ int main() {
     }
     
     
- 
+ //reverse traversing of array element 
+    printf("\nthe reverse array element are : \n");
+    for (int  i = size-1; i >=0; i--)
+
+    {
+        printf("%d ",arr[i]);
+    }
 
 
    return 0;
